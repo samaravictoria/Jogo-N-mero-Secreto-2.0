@@ -17,6 +17,7 @@ exibirMensagemInicial();
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag); // Seleciona o elemento pela tag
     campo.innerHTML = texto; // Atualiza o conteúdo do elemento
+    responsiveVoice.speak (texto, 'Brazilian Portuguese Female', {rate:1.2});
 }
 
 // Função para verificar o chute do jogador
