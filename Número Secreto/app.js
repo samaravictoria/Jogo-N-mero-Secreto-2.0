@@ -1,3 +1,5 @@
+let listaDeNumerosSorteados =  [];
+
 // Gera o número secreto aleatório
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1; // Contador de tentativas
@@ -43,7 +45,10 @@ function verificarChute() {
 
 // Função para gerar um número aleatório entre 1 e 100
 function gerarNumeroAleatorio() {
-    return Math.floor(Math.random() * 100) + 1; // Gera número de 1 a 100
+    let numeroEscolhido = parseInt (Math.random() * 100) + 1; // Gera número de 1 a 100
+    if (listaDeNumerosSorteados.includes(numeroEscolhido)) {
+        return gerarNumeroAleatorio(); 
+    }
 }
 
 // Função para limpar o campo de entrada
