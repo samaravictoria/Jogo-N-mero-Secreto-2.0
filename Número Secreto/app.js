@@ -46,6 +46,11 @@ function verificarChute() {
 // Função para gerar um número aleatório entre 1 e 100
 function gerarNumeroAleatorio() {
     let numeroEscolhido = parseInt (Math.random() * 100) + 1; // Gera número de 1 a 100
+    let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length; 
+
+    if (quantidadeDeElementosNaLista == 50) {
+        listaDeNumerosSorteados = [] ; 
+    }
     if (listaDeNumerosSorteados.includes(numeroEscolhido)) {
         return gerarNumeroAleatorio(); 
     } else { 
