@@ -58,4 +58,5 @@ function reiniciarJogo() {
     limparCampo(); // Limpa o campo de entrada
     tentativas = 1; // Reseta o contador de tentativas
     exibirMensagemInicial();
+    document.getElementById('reiniciar').setAttribute('disabled', true);
 }
