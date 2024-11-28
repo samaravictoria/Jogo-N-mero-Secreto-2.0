@@ -1,4 +1,5 @@
 let listaDeNumerosSorteados =  [];
+let numeroLimite = 100; 
 
 // Gera o número secreto aleatório
 let numeroSecreto = gerarNumeroAleatorio();
@@ -45,7 +46,7 @@ function verificarChute() {
 
 // Função para gerar um número aleatório entre 1 e 100
 function gerarNumeroAleatorio() {
-    let numeroEscolhido = parseInt (Math.random() * 100) + 1; // Gera número de 1 a 100
+    let numeroEscolhido = parseInt (Math.random() * numeroLimite) + 1; // Gera número de 1 a 100
     let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length; 
 
     if (quantidadeDeElementosNaLista == 50) {
