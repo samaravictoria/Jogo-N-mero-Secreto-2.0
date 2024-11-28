@@ -1,55 +1,52 @@
 # Jogo do Número Secreto 2.0 🎯  
 
-## 📖 Introdução  
+## 📖 Descrição  
 
-Bem-vindo ao Jogo do Número Secreto 2.0, uma aplicação interativa desenvolvida com HTML, CSS e JavaScript.  
-O objetivo é adivinhar um número secreto gerado aleatoriamente no intervalo de 1 a 100.  
-O jogo oferece feedback em tempo real e mantém um contador de tentativas para medir seu desempenho.  
+Bem-vindo ao **Jogo do Número Secreto 2.0**!  
+Este é um jogo interativo desenvolvido com HTML, CSS e JavaScript, perfeito para quem gosta de desafios lógicos e diversão.  
+O objetivo é simples: adivinhar um número secreto gerado aleatoriamente no intervalo de 1 a 100, com direito a dicas e contador de tentativas para medir seu desempenho.  
 
-🔗 **[Clique aqui para jogar agora](https://jogo-numero-secreto-2-0-sigma.vercel.app)**  
+🎮 **Experimente agora:** [Jogar no Vercel](https://jogo-numero-secreto-2-0-sigma.vercel.app)  
 
 ---
 
 ## 🕹️ Funcionalidades  
 
-- **Geração de Números Aleatórios e Únicos**:  
-  O número secreto é gerado de forma aleatória e não se repete até que 50 números sejam sorteados.  
+### 🎲 **Geração Aleatória e Única de Números**  
+O número secreto é escolhido aleatoriamente e não se repete até que 50 números sejam sorteados.  
 
-- **Feedback em Tempo Real**:  
-  Dicas sobre se o número secreto é maior ou menor que o chute do jogador.  
+### 💬 **Dicas em Tempo Real**  
+A cada tentativa, o jogo informa se o número secreto é maior ou menor que seu chute.  
 
-- **Contador de Tentativas**:  
-  Acompanha o número de tentativas realizadas até o jogador acertar.  
+### 🔢 **Contador de Tentativas**  
+Veja quantas tentativas você levou para acertar o número.  
 
-- **Narração com Voz**:  
-  Mensagens dinâmicas narradas com a biblioteca `ResponsiveVoice.js` em português brasileiro.  
+### 🔊 **Mensagens Narradas**  
+Com suporte da biblioteca `ResponsiveVoice.js`, o jogo narra as mensagens em português brasileiro, tornando a experiência ainda mais interativa.  
 
-- **Reinício Automático**:  
-  Após acertar o número, o jogador pode reiniciar o jogo com um novo número secreto.  
+### 🔄 **Reinício Fácil**  
+Após acertar, inicie um novo jogo com um simples clique, gerando outro número secreto aleatório.  
 
 ---
 
 ## 🚀 Como Jogar  
 
 1. **Abra o jogo no navegador**  
-   Acesse o link:  
-   🔗 **[https://jogo-numero-secreto-2-0-sigma.vercel.app](https://jogo-numero-secreto-2-0-sigma.vercel.app)**  
+   Acesse o jogo através deste link:  
+   [🔗 Jogar agora](https://jogo-numero-secreto-2-0-sigma.vercel.app)  
 
-2. **Leia a mensagem inicial**  
-   O jogo apresentará uma introdução e desejará boa sorte.  
+2. **Leia a introdução**  
+   O jogo apresentará uma mensagem inicial explicando as regras.  
 
-3. **Faça seu chute**  
-   Insira um número entre 1 e 100 no campo de entrada e clique em "Chutar".  
+3. **Insira seu chute**  
+   Digite um número entre 1 e 100 no campo de entrada e clique em "Chutar".  
 
 4. **Receba feedback**  
-   - "Tente um número maior" se o chute for menor que o número secreto.  
-   - "Tente um número menor" se o chute for maior que o número secreto.  
+   - Se o número for menor, você verá: *"Tente um número maior"*.  
+   - Se for maior, a mensagem será: *"Tente um número menor"*.  
 
-5. **Continue tentando**  
-   Tente novamente até acertar o número secreto.  
+5. **Continue até acertar**  
+   Quando descobrir o número secreto, o jogo exibirá uma mensagem comemorativa com o número de tentativas que você precisou.  
 
-6. **Veja o resultado**  
-   O jogo mostrará uma mensagem personalizada com o número de tentativas realizadas.  
-
-7. **Reinicie o jogo**  
-   Clique em "Novo jogo" para começar novamente com um novo número secreto.  
+6. **Reinicie o jogo**  
+   Clique em "Novo Jogo" para tentar novamente com outro número secreto.  
