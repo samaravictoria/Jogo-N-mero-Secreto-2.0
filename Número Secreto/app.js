@@ -48,6 +48,10 @@ function gerarNumeroAleatorio() {
     let numeroEscolhido = parseInt (Math.random() * 100) + 1; // Gera número de 1 a 100
     if (listaDeNumerosSorteados.includes(numeroEscolhido)) {
         return gerarNumeroAleatorio(); 
+    } else { 
+        listaDeNumerosSorteados.push(numeroEscolhido); 
+        console.log(listaDeNumerosSorteados);
+        return numeroEscolhido; 
     }
 }
 
