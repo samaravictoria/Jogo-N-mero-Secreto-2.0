@@ -1,9 +1,9 @@
-# Jogo do Número Secreto 2.0 🎯  
+Jogo do Número Secreto 2.0 🎯  
 
-## 📖 Descrição  
+# 📖 Descrição  
 
 Bem-vindo ao **Jogo do Número Secreto 2.0**!  
-Este é um jogo interativo desenvolvido com HTML, CSS e JavaScript, perfeito para quem gosta de desafios lógicos e diversão.  
+Este é um jogo interativo desenvolvido com **HTML**, **CSS** e **JavaScript**, perfeito para quem gosta de desafios lógicos e diversão.  
 O objetivo é simples: adivinhar um número secreto gerado aleatoriamente no intervalo de 1 a 100, com direito a dicas e contador de tentativas para medir seu desempenho.  
 
 🎮 **Experimente agora:** [Jogar no Vercel](https://jogo-numero-secreto-2-0-sigma.vercel.app)  
@@ -39,14 +39,17 @@ Após acertar, inicie um novo jogo com um simples clique, gerando outro número 
    O jogo apresentará uma mensagem inicial explicando as regras.  
 
 3. **Insira seu chute**  
-   Digite um número entre 1 e 100 no campo de entrada e clique em "Chutar".  
+   Digite um número entre 1 e 100 no campo de entrada e clique em **"Chutar"**.  
 
 4. **Receba feedback**  
-   - Se o número for menor, você verá: *"Tente um número maior"*.  
-   - Se for maior, a mensagem será: *"Tente um número menor"*.  
+   - Se o número for menor, você verá:  
+     _"Tente um número maior"._  
+   - Se for maior, a mensagem será:  
+     _"Tente um número menor"._  
 
 5. **Continue até acertar**  
    Quando descobrir o número secreto, o jogo exibirá uma mensagem comemorativa com o número de tentativas que você precisou.  
 
 6. **Reinicie o jogo**  
-   Clique em "Novo Jogo" para tentar novamente com outro número secreto.  
+   Clique em **"Novo Jogo"** para tentar novamente com outro número secreto.
+ 
