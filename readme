@@ -1,55 +1,55 @@
 Jogo do Número Secreto 2.0 🎯  
 
-# 📖 Descrição  
+# Descrição  
 
-Bem-vindo ao **Jogo do Número Secreto 2.0**!  
-Este é um jogo interativo desenvolvido com **HTML**, **CSS** e **JavaScript**, perfeito para quem gosta de desafios lógicos e diversão.  
+Bem-vindo ao Jogo do Número Secreto 2.0!  
+Este é um jogo interativo desenvolvido com HTML, CSS e JavaScript, perfeito para quem gosta de desafios lógicos e diversão.  
 O objetivo é simples: adivinhar um número secreto gerado aleatoriamente no intervalo de 1 a 100, com direito a dicas e contador de tentativas para medir seu desempenho.  
 
-🎮 **Experimente agora:** [Jogar no Vercel](https://jogo-numero-secreto-2-0-sigma.vercel.app)  
+🎮 Experimente agora: [Jogar no Vercel](https://jogo-numero-secreto-2-0-sigma.vercel.app)  
 
 ---
 
-## 🕹️ Funcionalidades  
+## Funcionalidades  
 
-### 🎲 **Geração Aleatória e Única de Números**  
+### Geração Aleatória e Única de Números  
 O número secreto é escolhido aleatoriamente e não se repete até que 50 números sejam sorteados.  
 
-### 💬 **Dicas em Tempo Real**  
+### Dicas em Tempo Real  
 A cada tentativa, o jogo informa se o número secreto é maior ou menor que seu chute.  
 
-### 🔢 **Contador de Tentativas**  
+### Contador de Tentativas  
 Veja quantas tentativas você levou para acertar o número.  
 
-### 🔊 **Mensagens Narradas**  
+### Mensagens Narradas  
 Com suporte da biblioteca `ResponsiveVoice.js`, o jogo narra as mensagens em português brasileiro, tornando a experiência ainda mais interativa.  
 
-### 🔄 **Reinício Fácil**  
+### Reinício Fácil  
 Após acertar, inicie um novo jogo com um simples clique, gerando outro número secreto aleatório.  
 
 ---
 
-## 🚀 Como Jogar  
+## Como Jogar  
 
-1. **Abra o jogo no navegador**  
+1. Abra o jogo no navegador  
    Acesse o jogo através deste link:  
-   [🔗 Jogar agora](https://jogo-numero-secreto-2-0-sigma.vercel.app)  
+   [Jogar agora](https://jogo-numero-secreto-2-0-sigma.vercel.app)  
 
-2. **Leia a introdução**  
+2. Leia a introdução  
    O jogo apresentará uma mensagem inicial explicando as regras.  
 
-3. **Insira seu chute**  
-   Digite um número entre 1 e 100 no campo de entrada e clique em **"Chutar"**.  
+3. Insira seu chute  
+   Digite um número entre 1 e 100 no campo de entrada e clique em "Chutar".  
 
-4. **Receba feedback**  
+4. Receba feedback  
    - Se o número for menor, você verá:  
-     _"Tente um número maior"._  
+     "Tente um número maior".  
    - Se for maior, a mensagem será:  
-     _"Tente um número menor"._  
+     "Tente um número menor".  
 
-5. **Continue até acertar**  
+5. Continue até acertar  
    Quando descobrir o número secreto, o jogo exibirá uma mensagem comemorativa com o número de tentativas que você precisou.  
 
-6. **Reinicie o jogo**  
-   Clique em **"Novo Jogo"** para tentar novamente com outro número secreto.
- 
+6. Reinicie o jogo  
+   Clique em "Novo Jogo" para tentar novamente com outro número secreto.
+
